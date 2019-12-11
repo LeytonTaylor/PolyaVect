@@ -2,17 +2,21 @@
 <!-- saved from url=(0071)file:///C:/Users/Leyton/Documents/UNI/MTH3640/PechaKucha/PolyaVect.html -->
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><link rel="stylesheet" href="./PolyaVect_files/katex.min.css"></head><body>
 <body>
-  <head>Leyton Taylor</head>
-  <h1>
-    <img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600">
-  </h1>
-  <div id="observablehq-8e158879"></div>
-  <script type="module">
-  import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
-  import define from "https://api.observablehq.com/@vinicius-mello/polya-vector-field.js?v=3";
-  const inspect = Inspector.into("#observablehq-8e158879");
-  (new Runtime).module(define, name => (name === "viewof plot") && inspect());
-  </script>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <h1>Leyton Taylor</h1>
+  <div class="container">
+    <img src="PlotExample.PNG" alt="Polya Vector field" width="500" height="600">
+
+    <div id="observablehq-8e158879"></div>
+    <script type="module">
+    import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+    import define from "https://api.observablehq.com/@vinicius-mello/polya-vector-field.js?v=3";
+    const inspect = Inspector.into("#observablehq-8e158879");
+    (new Runtime).module(define, name => (name === "viewof plot") && inspect());
+    </script>
+  </div
 </body>
 
 </html>
