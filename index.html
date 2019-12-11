@@ -7,16 +7,17 @@
   </head>
   <h1>Leyton Taylor</h1>
   <div class="container">
-    <img src="PlotExample.PNG" alt="Polya Vector field" width="500" height="600">
+    <img src="PlotExample.png" alt="Polya Vector field" width="500" height="600">
 
     <div id="observablehq-8e158879"></div>
+  </div>
     <script type="module">
-    import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
-    import define from "https://api.observablehq.com/@vinicius-mello/polya-vector-field.js?v=3";
-    const inspect = Inspector.into("#observablehq-8e158879");
-    (new Runtime).module(define, name => (name === "viewof plot") && inspect());
+      import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+      import define from "https://api.observablehq.com/@vinicius-mello/polya-vector-field.js?v=3";
+      const inspect = Inspector.into("#observablehq-8e158879");
+      (new Runtime).module(define, name => (name === "viewof plot") && inspect());
     </script>
-  </div
+  
 </body>
 
 </html>
